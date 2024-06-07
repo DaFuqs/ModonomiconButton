@@ -1,33 +1,34 @@
 {
   "schemaVersion": 1,
-  "id": "patchoulibutton",
+  "id": "modonomiconbutton",
   "version": "${version}",
-  "name": "PatchouliButton",
-  "description": "This is an addon for the mod Patchouli which adds a button in the inventory screen",
+  "name": "ModonomiconButton",
+  "description": "This is an addon for the mod Modonomicon which adds a button in the inventory screen",
   "authors": [
-    "Globox_Z"
+    "Globox_Z",
+    "DaFuqs"
   ],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/patchoulibutton",
-    "sources": "https://github.com/Globox1997/PatchouliButton",
-    "issues": "https://github.com/Globox1997/PatchouliButton/issues"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/modonomiconbutton",
+    "sources": "https://github.com/Globox1997/ModonomiconButton",
+    "issues": "https://github.com/Globox1997/ModonomiconButton/issues"
   },
   "license": "MIT",
-  "icon": "assets/patchoulibutton/icon.png",
+  "icon": "assets/modonomiconbutton/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.patchoulibutton.PatchouliButtonMain"
+      "net.modonomiconbutton.ModonomiconButtonMain"
     ],
     "client": [
-      "net.patchoulibutton.PatchouliButtonClient"
+      "net.modonomiconbutton.ModonomiconButtonClient"
     ],
     "modmenu": [
-      "net.patchoulibutton.config.ModMenuIntegration"
+      "net.modonomiconbutton.config.ModMenuIntegration"
     ]
   },
   "mixins": [
-    "patchoulibutton.mixins.json"
+    "modonomiconbutton.mixins.json"
   ],
   "depends": {
     "java": ">=17",
@@ -35,15 +36,6 @@
     "fabric-api": ">=${fabric_version}",
     "fabricloader": ">=${loader_version}",
     "cloth-config2": ">=${cloth_config_version}",
-    "patchouli": "*"
-  },
-  "suggests": {
-    "another-mod": "*"
-  },
-  "custom": {
-    "mc-publish": {
-      "modrinth": "bTOwvKv9",
-      "curseforge": 703778
-    }
+    "modonomicon": "*"
   }
 }

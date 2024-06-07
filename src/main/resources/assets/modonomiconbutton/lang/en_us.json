@@ -1,0 +1,11 @@
+{
+    "text.autoconfig.modonomiconbutton.title": "ModonomiconButton Config",
+    "text.autoconfig.modonomiconbutton.option.bookIdentifier": "Book Identifier",
+    "text.autoconfig.modonomiconbutton.option.posX": "Button Pos X",
+    "text.autoconfig.modonomiconbutton.option.posY": "Button Pos Y",
+    "text.autoconfig.modonomiconbutton.option.openAllBooksScreen": "Open All Books Screen",
+    
+    "screen.modonomiconbutton": "Modpack Books",
+    "screen.modonomiconbutton.title": "Modpack Books",
+    "screen.modonomiconbutton.book_name": "%s"
+}
